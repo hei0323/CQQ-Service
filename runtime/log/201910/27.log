@@ -1,0 +1,759 @@
+---------------------------------------------------------------
+
+[2019-10-27T11:10:02+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.056585s] [吞吐率：17.67req/s] [内存消耗：1,886.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:10:02+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.049091s] [吞吐率：20.37req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:02+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.036364s] [吞吐率：27.50req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:03+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.049335s] [吞吐率：20.27req/s] [内存消耗：1,886.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:10:04+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.040677s] [吞吐率：24.58req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:04+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.046367s] [吞吐率：21.57req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:11+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.052842s] [吞吐率：18.92req/s] [内存消耗：1,886.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:10:11+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.033814s] [吞吐率：29.57req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:11+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.043206s] [吞吐率：23.14req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:28+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.053486s] [吞吐率：18.70req/s] [内存消耗：1,886.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:10:29+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.042986s] [吞吐率：23.26req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:10:29+08:00] 127.0.0.1 GET 127.0.0.1:8000/src/layui.js
+[运行时间：0.040709s] [吞吐率：24.56req/s] [内存消耗：1,482.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:11:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.060407s] [吞吐率：16.55req/s] [内存消耗：2,050.11kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:11:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/layui/src/layui.js
+[运行时间：0.042654s] [吞吐率：23.44req/s] [内存消耗：1,482.57kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:11:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/layui/src/layui.js
+[运行时间：0.044334s] [吞吐率：22.56req/s] [内存消耗：1,482.57kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T11:12:39+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.057093s] [吞吐率：17.52req/s] [内存消耗：2,049.98kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:12:42+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.059527s] [吞吐率：16.80req/s] [内存消耗：1,886.67kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:12:52+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.059807s] [吞吐率：16.72req/s] [内存消耗：1,886.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:12:53+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.051818s] [吞吐率：19.30req/s] [内存消耗：1,886.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:12:55+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.054070s] [吞吐率：18.49req/s] [内存消耗：1,886.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:12:58+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.048956s] [吞吐率：20.43req/s] [内存消耗：1,886.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:13:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.049442s] [吞吐率：20.23req/s] [内存消耗：1,886.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:33:15+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/text
+[运行时间：0.060497s] [吞吐率：16.53req/s] [内存消耗：1,855.99kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-10-27T11:33:29+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/text
+[运行时间：0.050862s] [吞吐率：19.66req/s] [内存消耗：2,043.59kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\text.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:33:58+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/text
+[运行时间：0.048728s] [吞吐率：20.52req/s] [内存消耗：2,043.83kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\text.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:34:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/text
+[运行时间：0.049337s] [吞吐率：20.27req/s] [内存消耗：2,043.83kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\text.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:34:42+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/text
+[运行时间：0.057270s] [吞吐率：17.46req/s] [内存消耗：2,043.83kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\text.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:34:58+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/text
+[运行时间：0.048310s] [吞吐率：20.70req/s] [内存消耗：2,043.95kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\text.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T11:35:15+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/text
+[运行时间：0.049012s] [吞吐率：20.40req/s] [内存消耗：2,043.95kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\text.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:03:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.093434s] [吞吐率：10.70req/s] [内存消耗：2,049.96kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:03:27+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.040232s] [吞吐率：24.86req/s] [内存消耗：1,886.60kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:03:31+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.045905s] [吞吐率：21.78req/s] [内存消耗：1,886.74kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:04:36+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.054917s] [吞吐率：18.21req/s] [内存消耗：2,050.18kb] [文件加载：67]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:04:36+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.043118s] [吞吐率：23.19req/s] [内存消耗：1,886.74kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:04:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.051708s] [吞吐率：19.34req/s] [内存消耗：1,886.74kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:17:55+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.050619s] [吞吐率：19.76req/s] [内存消耗：1,886.74kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T12:17:56+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index/
+[运行时间：0.046124s] [吞吐率：21.68req/s] [内存消耗：1,886.74kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1:8000/admin/index/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T13:55:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/chat/index/
+[运行时间：0.053980s] [吞吐率：18.53req/s] [内存消耗：1,813.73kb] [文件加载：61]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-10-27T21:49:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/chat/index/
+[运行时间：0.135031s] [吞吐率：7.41req/s] [内存消耗：1,483.70kb] [文件加载：57]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2019-10-27T21:51:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/index
+[运行时间：0.089711s] [吞吐率：11.15req/s] [内存消耗：1,886.54kb] [文件加载：65]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\site\layui\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-10-27T21:51:58+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index
+[运行时间：0.045903s] [吞吐率：21.78req/s] [内存消耗：1,814.02kb] [文件加载：60]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-10-27T21:52:04+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.039767s] [吞吐率：25.15req/s] [内存消耗：1,813.95kb] [文件加载：60]
+[ info ] [ LANG ] D:\site\layui\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=rqvb9ttcfm25f9sv2gt2l1rdd1; name=MTI3LjAuMC4xMTU3MTkyMzU2Nw%3D%3D; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)

@@ -1,0 +1,28 @@
+2019-10-28 19:23:16 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:23:16 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:45 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:45 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:49 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:49 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:50 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:50 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:54 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:54 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:58 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:24:58 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:25:03 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 19:25:03 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 20:15:17 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 20:15:17 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 20:15:20 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 20:15:20 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-28 22:17:44 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:45 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:46 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:47 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:48 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:49 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:50 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:51 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:52 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-28 22:17:53 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0

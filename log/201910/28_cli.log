@@ -1,0 +1,8 @@
+[2019-10-28T11:33:52+00:00][ error ] [0]Fatal error: Call to undefined method think\App::send()[D:\site\layui\start_register.php:10]
+error
+[2019-10-28T12:24:55+00:00][ error ] [0]class not exists: app3[D:\site\layui\thinkphp\library\think\Container.php:442]
+error
+[2019-10-28T12:50:19+00:00][ error ] [8192]Non-static method think\App::run() should not be called statically[D:\site\layui\start_register.php:10]
+error
+[2019-10-28T14:03:17+00:00][ error ] [2]getopt() expects at least 1 parameter, 0 given[D:\site\layui\start_register.php:9]
+error
