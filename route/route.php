@@ -8,6 +8,8 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+use think\facade\Route;
+
 
 Route::get('think', function () {
     return 'hello,ThinkPHP5!';
@@ -15,6 +17,7 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 Route::resource('userApi','customer/UserApi');
-return [
 
-];
+Route::group('customer', function() {
+    Route::get('login', '@customer/Login/index');
+});
