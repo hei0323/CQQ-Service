@@ -26,3 +26,74 @@
 2019-10-28 22:17:51 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
 2019-10-28 22:17:52 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
 2019-10-28 22:17:53 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2019-10-30 12:15:23 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in D:\www\CQQ-Service\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 D:\www\CQQ-Service\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 D:\www\CQQ-Service\vendor\workerman\gateway-worker\src\Gateway.php(605): Workerman\Connection\TcpConnection->send(Array, false)
+#2 D:\www\CQQ-Service\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 D:\www\CQQ-Service\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #151)
+#4 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#5 D:\www\CQQ-Service\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#6 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\Gateway->run()
+#7 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#8 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#9 D:\www\CQQ-Service\application\service\controller\WinGateWay.php(50): Workerman\Worker::runAll()
+#10 [internal function]: app\service\controller\WinGateWay->index()
+#11 D:\www\CQQ-Service\thinkphp\library\think\Container.php(395): ReflectionMethod->invokeArgs(Object(app\service\controller\WinGateWay), Array)
+#12 D:\www\CQQ-Service\thinkphp\library\think\route\dispatch\Module.php(131): think\Container->invokeReflectMethod(Object(app\service\controller\WinGateWay), Object(ReflectionMethod), Array)
+#13 [internal function]: think\route\dispatch\Module->think\route\dispatch\{closure}(Object(think\Request), Object(Closure), NULL)
+#14 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(185): call_user_func_array(Object(Closure), Array)
+#15 [internal function]: think\Middleware->think\{closure}(Object(think\Request))
+#16 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(130): call_user_func(Object(Closure), Object(think\Request))
+#17 D:\www\CQQ-Service\thinkphp\library\think\route\dispatch\Module.php(136): think\Middleware->dispatch(Object(think\Request), 'controller')
+#18 D:\www\CQQ-Service\thinkphp\library\think\route\Dispatch.php(168): think\route\dispatch\Module->exec()
+#19 D:\www\CQQ-Service\thinkphp\library\think\App.php(432): think\route\Dispatch->run()
+#20 [internal function]: think\App->think\{closure}(Object(think\Request), Object(Closure), NULL)
+#21 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(185): call_user_func_array(Object(Closure), Array)
+#22 [internal function]: think\Middleware->think\{closure}(Object(think\Request))
+#23 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(130): call_user_func(Object(Closure), Object(think\Request))
+#24 D:\www\CQQ-Service\thinkphp\library\think\App.php(435): think\Middleware->dispatch(Object(think\Request))
+#25 D:\www\CQQ-Service\start_gateway.php(10): think\App->run()
+#26 {main}
+2019-10-30 12:15:23 pid:1 Worker process terminated
+2019-10-30 12:15:38 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in D:\www\CQQ-Service\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 D:\www\CQQ-Service\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 D:\www\CQQ-Service\vendor\workerman\gateway-worker\src\Gateway.php(605): Workerman\Connection\TcpConnection->send(Array, false)
+#2 D:\www\CQQ-Service\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 D:\www\CQQ-Service\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #104)
+#4 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#5 D:\www\CQQ-Service\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#6 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\Gateway->run()
+#7 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#8 D:\www\CQQ-Service\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#9 D:\www\CQQ-Service\application\service\controller\WinGateWay.php(50): Workerman\Worker::runAll()
+#10 [internal function]: app\service\controller\WinGateWay->index()
+#11 D:\www\CQQ-Service\thinkphp\library\think\Container.php(395): ReflectionMethod->invokeArgs(Object(app\service\controller\WinGateWay), Array)
+#12 D:\www\CQQ-Service\thinkphp\library\think\route\dispatch\Module.php(131): think\Container->invokeReflectMethod(Object(app\service\controller\WinGateWay), Object(ReflectionMethod), Array)
+#13 [internal function]: think\route\dispatch\Module->think\route\dispatch\{closure}(Object(think\Request), Object(Closure), NULL)
+#14 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(185): call_user_func_array(Object(Closure), Array)
+#15 [internal function]: think\Middleware->think\{closure}(Object(think\Request))
+#16 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(130): call_user_func(Object(Closure), Object(think\Request))
+#17 D:\www\CQQ-Service\thinkphp\library\think\route\dispatch\Module.php(136): think\Middleware->dispatch(Object(think\Request), 'controller')
+#18 D:\www\CQQ-Service\thinkphp\library\think\route\Dispatch.php(168): think\route\dispatch\Module->exec()
+#19 D:\www\CQQ-Service\thinkphp\library\think\App.php(432): think\route\Dispatch->run()
+#20 [internal function]: think\App->think\{closure}(Object(think\Request), Object(Closure), NULL)
+#21 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(185): call_user_func_array(Object(Closure), Array)
+#22 [internal function]: think\Middleware->think\{closure}(Object(think\Request))
+#23 D:\www\CQQ-Service\thinkphp\library\think\Middleware.php(130): call_user_func(Object(Closure), Object(think\Request))
+#24 D:\www\CQQ-Service\thinkphp\library\think\App.php(435): think\Middleware->dispatch(Object(think\Request))
+#25 D:\www\CQQ-Service\start_gateway.php(10): think\App->run()
+#26 {main}
+2019-10-30 12:15:38 pid:1 Worker process terminated
+2019-10-30 13:32:17 pid:19540 Workerman[workman.php] start in DAEMON mode
+2019-10-30 13:43:34 pid:19588 Workerman[workman.php] restart 
+2019-10-30 13:43:34 pid:19588 Workerman[workman.php] is stopping ...
+2019-10-30 13:43:34 pid:19542 Workerman[workman.php] stopping ...
+2019-10-30 13:43:34 pid:19542 Workerman[workman.php] has been stopped
+2019-10-30 13:43:34 pid:19588 Workerman[workman.php] stop success
+2019-10-30 13:44:10 pid:19600 Workerman[workman.php] restart 
+2019-10-30 13:44:10 pid:19600 Workerman[workman.php] is stopping ...
+2019-10-30 13:44:10 pid:19590 Workerman[workman.php] stopping ...
+2019-10-30 13:44:10 pid:19590 Workerman[workman.php] has been stopped
+2019-10-30 13:44:10 pid:19600 Workerman[workman.php] stop success
