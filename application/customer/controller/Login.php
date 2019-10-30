@@ -10,11 +10,17 @@ namespace app\customer\controller;
 
 
 use think\Controller;
+use think\facade\Session;
 
 class Login extends Controller
 {
     public function index()
     {
-        echo 111;die;
+        $clientId = $this->request->param('client_id');
+        $content = $this->request->param('content');
+
+        Session::set('clientId',$clientId);
+
+        $this->result([],0,'ok');
     }
 }
