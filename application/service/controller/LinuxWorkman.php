@@ -11,28 +11,30 @@ class LinuxWorkman
     public function index()
     {
         // register 服务必须是text协议
-        $register = new Register('text://0.0.0.0:1236');
+        $sockName = config('register.protocol').'://'.config('register.ip').':'.config('register.port');
+        $register = new Register($sockName);
 
         // gateway 进程
-        $gateway = new Gateway("Websocket://0.0.0.0:7272");
-        $gateway->name = 'ChatGateway';
-        $gateway->count = 4;
-        $gateway->lanIp = '127.0.0.1';
-        $gateway->startPort = 2300;
-        $gateway->pingInterval = 55;
-        $gateway->pingNotResponseLimit = 0;
-        $gateway->pingData = '{"type":"ping"}';
-        $gateway->registerAddress = '127.0.0.1:1236';
+        $sockName = config('gateway.protocol').'://'.config('gateway.ip').':'.config('gateway.port');
+        $gateway = new Gateway($sockName);
+        $gateway->name = config('gateway.name');
+        $gateway->count = config('gateway.count');
+        $gateway->lanIp = config('gateway.lanIp');
+        $gateway->startPort = config('gateway.startPort');
+        $gateway->pingInterval = config('gateway.pingInterval');
+        $gateway->pingNotResponseLimit = config('gateway.pingNotResponseLimit');
+        $gateway->pingData = config('gateway.pingData');
+        $gateway->registerAddress = config('register.registerAddress').':'.config('register.port');
 
         // bussinessWorker 进程
         $worker = new BusinessWorker();
-        $worker->name = 'ChatBusinessWorker';
-        $worker->count = 4;
-        $worker->registerAddress = '127.0.0.1:1236';
-        $worker->eventHandler = 'app\service\controller\ChatEvents';
+        $worker->name = config('worker.name');
+        $worker->count = config('worker.count');
+        $worker->registerAddress = config('register.registerAddress').':'.config('register.port');
+        $worker->eventHandler = config('worker.eventHandler');
 
         //设置WorkerMan进程的pid文件路径
-        Worker::$pidFile = '/var/run/workerman.pid';
+        Worker::$pidFile = config('worker.pidFile');
 
         //运行所有Worker;
         Worker::runAll();
