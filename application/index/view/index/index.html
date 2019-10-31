@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{$Think.config.public_path}/layui/css/layui.css">
     <script src="{$Think.config.public_path}/layui/layui.js"></script>
 </head>
-<body class="layui-container">
+<body class="layui-container" style="height: 80%;width: 60%;padding-top: 3%">
 
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
     <legend>CQQ聊天大厅</legend>
@@ -19,14 +19,14 @@
         <div class="layui-col-md8">
             <div class="layui-card">
                 <div class="layui-card-header">实时消息</div>
-                <div id="chatList" class="layui-card-body" style="height: 500px;overflow-y: scroll;overflow">
+                <div id="chatList" class="layui-card-body" style="height: 300px;overflow-y: scroll;overflow">
                 </div>
             </div>
         </div>
         <div class="layui-col-md4">
             <div class="layui-card">
                 <div class="layui-card-header">在线列表</div>
-                <div class="layui-card-body" style="height: 500px">
+                <div class="layui-card-body" style="height: 300px">
                     <page>罐罐</page>
                     <page>罐罐</page>
                     <page>罐罐</page>
@@ -73,7 +73,7 @@
 
 </body>
 <script>
-    ws = new WebSocket("ws://chat.qjshe.com:7272");
+    ws = new WebSocket("ws://www.chat.com:7272");
     // 服务端主动推送消息时会触发这里的onmessage
     ws.onmessage = function(e){
         // json数据转换成js对象
@@ -83,7 +83,7 @@
             // Events.php中返回的init类型的消息，将client_id发给后台进行uid绑定
             case 'init':
                 // 利用jquery发起ajax请求，将client_id发给后端进行uid绑定
-                $.post('http://chat.qjshe.com/customer/login', {client_id: data.client_id}, function(data){}, 'json');
+                $.post('./customer/login', {client_id: data.client_id}, function(data){}, 'json');
                 break;
             case 'getMsg':
                 // 利用jquery发起ajax请求，将client_id发给后端进行uid绑定
@@ -109,7 +109,7 @@
             var scrollHeight = $('#chatList').prop("scrollHeight");
             $('#chatList').scrollTop(scrollHeight,300);
 
-            $.post('http://chat.qjshe.com/customer/sendMsg', data.field, function(data){}, 'json');
+            $.post('./customer/sendMsg', data.field, function(data){}, 'json');
             return false;
         });
     });

@@ -86,3 +86,18 @@ Stack trace:
 #25 D:\www\CQQ-Service\start_gateway.php(10): think\App->run()
 #26 {main}
 2019-10-30 12:15:38 pid:1 Worker process terminated
+2019-10-30 13:32:17 pid:19540 Workerman[workman.php] start in DAEMON mode
+2019-10-30 13:43:34 pid:19588 Workerman[workman.php] restart 
+2019-10-30 13:43:34 pid:19588 Workerman[workman.php] is stopping ...
+2019-10-30 13:43:34 pid:19542 Workerman[workman.php] stopping ...
+2019-10-30 13:43:34 pid:19542 Workerman[workman.php] has been stopped
+2019-10-30 13:43:34 pid:19588 Workerman[workman.php] stop success
+2019-10-30 13:44:10 pid:19600 Workerman[workman.php] restart 
+2019-10-30 13:44:10 pid:19600 Workerman[workman.php] is stopping ...
+2019-10-30 13:44:10 pid:19590 Workerman[workman.php] stopping ...
+2019-10-30 13:44:10 pid:19590 Workerman[workman.php] has been stopped
+2019-10-30 13:44:10 pid:19600 Workerman[workman.php] stop success
+2019-10-31 15:09:58 pid:8216 Workerman[workman.php] start in DAEMON mode
+2019-10-31 15:10:07 pid:8228 Workerman[workman.php] status 
+2019-10-31 15:26:50 pid:8915 Workerman[workman.php] start in DAEMON mode
+2019-10-31 15:26:57 pid:8927 Workerman[workman.php] status 
