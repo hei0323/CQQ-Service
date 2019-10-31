@@ -99,3 +99,5 @@ Stack trace:
 2019-10-30 13:44:10 pid:19600 Workerman[workman.php] stop success
 2019-10-31 15:09:58 pid:8216 Workerman[workman.php] start in DAEMON mode
 2019-10-31 15:10:07 pid:8228 Workerman[workman.php] status 
+2019-10-31 15:26:50 pid:8915 Workerman[workman.php] start in DAEMON mode
+2019-10-31 15:26:57 pid:8927 Workerman[workman.php] status 
