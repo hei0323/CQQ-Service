@@ -9,5 +9,5 @@ Route::group('api/v1', function() {
 
 
 Route::group('api/v2', function() {
-    Route::get('pushWebMsg', '@api/v1/Push/webMsg');
+    Route::get('pushWebMsg', '@api/v2/Push/webMsg');
 });

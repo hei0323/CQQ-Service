@@ -20,5 +20,5 @@ Route::resource('userApi','customer/UserApi');
 
 Route::group('customer', function() {
     Route::get('login', '@customer/Login/index');
-    Route::post('sendMsg', '@customer/Message/send');
+    Route::post('sendMsg', '@customer/Message/send')->middleware(['Check']);
 });
