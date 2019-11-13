@@ -18,6 +18,7 @@ class Goods
     }
 
     public function get($id){
+
         $event = App::controller('api\controller\event\Goods','event');
         return $event->get($id);
     }
