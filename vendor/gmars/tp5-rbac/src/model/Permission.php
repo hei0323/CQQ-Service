@@ -79,6 +79,41 @@ class Permission extends Base
     }
 
     /**
+     * 获取管理员权限
+     * @param $adminId
+     * @param int $timeOut
+     * @return array|mixed|\PDOStatement|string|\think\Collection
+     * @throws Exception
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
+    public function adminPermission($adminId, $timeOut = 3600)
+    {
+        if (empty($adminId)) {
+            throw new Exception('参数错误');
+        }
+        $permission = Cache::get($this->_permissionCachePrefix . $adminId);
+        if (!empty($permission)) {
+            return $permission;
+        }
+        $permission = $this->getPermissionByAdminId($adminId);
+        if (empty($permission)) {
+            throw new Exception('未查询到该用户的任何权限');
+        }
+        $newPermission = [];
+        if (!empty($permission)) {
+            foreach ($permission as $k=>$v)
+            {
+                $newPermission[$v['path']] = $v;
+            }
+        }
+        Cache::set($this->_permissionCachePrefix . $adminId, $newPermission, $timeOut);
+        Session::set('gmars_rbac_permission_name', $this->_permissionCachePrefix . $adminId);
+        return $newPermission;
+    }
+
+    /**
      * 获取用户权限
      * @param $userId
      * @param int $timeOut
@@ -111,6 +146,24 @@ class Permission extends Base
         Cache::set($this->_permissionCachePrefix . $userId, $newPermission, $timeOut);
         Session::set('gmars_rbac_permission_name', $this->_permissionCachePrefix . $userId);
         return $newPermission;
+    }
+
+    /**
+     * 根据adminid获取权限
+     * @param $adminId
+     * @return array|\PDOStatement|string|\think\Collection
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
+    public function getPermissionByAdminId($adminId)
+    {
+        $prefix = $this->getConfig('prefix');
+        $permission = Db::name('permission')->setConnection($this->getConnection())->alias('p')
+            ->join(["{$prefix}role_permission" => 'rp'], 'p.id = rp.permission_id')
+            ->join(["{$prefix}admin_role" => 'ur'], 'rp.role_id = ur.role_id')
+            ->where('ur.admin_id', $adminId)->select();
+        return $permission;
     }
 
     /**

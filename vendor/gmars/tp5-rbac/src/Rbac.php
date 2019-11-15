@@ -16,6 +16,7 @@ use gmars\rbac\model\Permission;
 use gmars\rbac\model\PermissionCategory;
 use gmars\rbac\model\Role;
 use gmars\rbac\model\UserRole;
+use gmars\rbac\model\AdminRole;
 use think\Db;
 use think\db\Query;
 use think\db\Where;
@@ -270,6 +271,37 @@ class Rbac
 
 
     /**
+     * @param $adminId
+     * @param array $role
+     * @return int|string
+     * @throws Exception
+     * 为管理员分配角色
+     */
+    public function assignAdminRole($adminId, array $role = [])
+    {
+        if (empty($adminId) || empty($role)) {
+            throw new Exception('参数错误');
+        }
+        $model = new AdminRole($this->db);
+        $model->startTrans();
+        if ($model->where('admin_id', $adminId)->delete() === false) {
+            $model->rollback();
+            throw new Exception('删除用户原有角色出错');
+        }
+        $adminRole = [];
+        foreach ($role as $v)
+        {
+            $adminRole [] = ['admin_id' => $adminId, 'role_id' => $v];
+        }
+        if ($model->saveAll($adminRole) === false) {
+            $model->rollback();
+            throw new Exception('给用户分配角色出错');
+        }
+        $model->commit();
+        return ;
+    }
+
+    /**
      * @param $userId
      * @param array $role
      * @return int|string
@@ -300,8 +332,29 @@ class Rbac
         return ;
     }
 
+
     /**
      * 删除用户角色
+     * @param $id
+     * @return bool
+     * @throws Exception
+     * @throws \think\exception\PDOException
+     */
+    public function delAdminRole($id)
+    {
+        if (empty($id)) {
+            throw new Exception('参数错误');
+        }
+        $model = new AdminRole($this->db);
+        if ($model->where('admin_id', $id)->delete() === false) {
+            throw new Exception('删除用户角色出错');
+        }
+        return true;
+    }
+
+
+    /**
+     * 删除管理员角色
      * @param $id
      * @return bool
      * @throws Exception
@@ -320,6 +373,26 @@ class Rbac
     }
 
     /**
+     * 获取管理员权限并缓存
+     * @param $id
+     * @param int $timeOut
+     * @return array|bool|mixed|\PDOStatement|string|\think\Collection
+     * @throws Exception
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
+    public function cachePermissionAdmin($id, $timeOut = 3600)
+    {
+        if (empty($id)) {
+            throw new Exception('参数错误');
+        }
+        $model = new Permission($this->db);
+        $permission = $model->adminPermission($id, $timeOut);
+        return $permission;
+    }
+
+    /**
      * 获取用户权限并缓存
      * @param $id
      * @param int $timeOut
@@ -329,7 +402,7 @@ class Rbac
      * @throws \think\db\exception\ModelNotFoundException
      * @throws \think\exception\DbException
      */
-    public function cachePermission($id, $timeOut = 3600)
+    public function cachePermissionUser($id, $timeOut = 3600)
     {
         if (empty($id)) {
             throw new Exception('参数错误');

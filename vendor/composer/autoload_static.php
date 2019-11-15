@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit38f6153522e7aa2edbf48a220d48fef6
 {
     public static $files = array (
+        'cc25fa796cd7d2989f16cf9daf45371d' => __DIR__ . '/..' . '/thans/tp-jwt-auth/src/helper.php',
         'ddc3cd2a04224f9638c5d0de6a69c7e3' => __DIR__ . '/..' . '/topthink/think-migration/src/config.php',
     );
 
@@ -15,6 +16,7 @@ class ComposerStaticInit38f6153522e7aa2edbf48a220d48fef6
         array (
             'think\\migration\\' => 16,
             'think\\composer\\' => 15,
+            'thans\\jwt\\' => 10,
         ),
         'g' => 
         array (
@@ -32,6 +34,10 @@ class ComposerStaticInit38f6153522e7aa2edbf48a220d48fef6
         array (
             'Phinx\\' => 6,
         ),
+        'L' => 
+        array (
+            'Lcobucci\\JWT\\' => 13,
+        ),
         'G' => 
         array (
             'GatewayWorker\\' => 14,
@@ -48,6 +54,10 @@ class ComposerStaticInit38f6153522e7aa2edbf48a220d48fef6
         array (
             0 => __DIR__ . '/..' . '/topthink/think-installer/src',
         ),
+        'thans\\jwt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thans/tp-jwt-auth/src',
+        ),
         'gmars\\rbac\\' => 
         array (
             0 => __DIR__ . '/..' . '/gmars/tp5-rbac/src',
@@ -63,6 +73,10 @@ class ComposerStaticInit38f6153522e7aa2edbf48a220d48fef6
         'Phinx\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-migration/phinx/src/Phinx',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
         ),
         'GatewayWorker\\' => 
         array (
