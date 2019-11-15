@@ -7,7 +7,6 @@ Route::group('api/v1', function() {
     Route::get('goodsGet/:id', '@api/v1/Goods/get');
 });
 
-
 Route::group('api/v2', function() {
     Route::get('pushWebMsg', '@api/v2/Push/webMsg');
 });
@@ -21,4 +20,4 @@ Route::group('cjjweb', function() {
         Route::resource('clientId', '@cjjweb/v2/ClientId');
         Route::resource('notice', '@cjjweb/v2/Notice');
     });
-});
+})->middleware(['Cors']);

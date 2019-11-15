@@ -40,13 +40,19 @@ class Notice extends Controller
     public function save(Request $request)
     {
         //接收参数
-        $content = $request->param('content');
-        $userId =  $request->param('userId');
+        $data['content'] = $request->param('content');
+        $data['sendId'] =  $request->param('sentId');
+        $data['type'] =  $request->param('type');
+        $data['receiverId'] =  $request->param('receiverId');
+
         //发送通知给个人
-        GateWayClient::sendToUid($userId,$content);
+        if($data['receiverId'] == 0){
+            GateWayClient::sendToAll(json_encode($data),null,$data['receiverId']);
+        }else{
+            GateWayClient::sendToUid($data['receiverId'],json_encode($data));
+        }
 
         $this->result([],200,'ok');
-
     }
 
     /**
