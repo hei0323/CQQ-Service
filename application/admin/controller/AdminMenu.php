@@ -1,11 +1,11 @@
 <?php
 
-namespace app\common\controller;
+namespace app\admin\controller;
 
 use think\Controller;
 use think\Request;
 
-class cjjweb extends Controller
+class AdminMenu extends Controller
 {
     /**
      * 显示资源列表
