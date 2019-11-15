@@ -6,10 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'think\\migration\\' => array($vendorDir . '/topthink/think-migration/src'),
     'think\\composer\\' => array($vendorDir . '/topthink/think-installer/src'),
     'gmars\\rbac\\' => array($vendorDir . '/gmars/tp5-rbac/src'),
     'app\\' => array($baseDir . '/application'),
     'Workerman\\' => array($vendorDir . '/workerman/workerman'),
+    'Phinx\\' => array($vendorDir . '/topthink/think-migration/phinx/src/Phinx'),
     'GatewayWorker\\' => array($vendorDir . '/workerman/gateway-worker/src'),
     'GatewayClient\\' => array($vendorDir . '/workerman/gatewayclient'),
 );
