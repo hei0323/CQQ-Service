@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : php7虚拟机
+ Source Server         : 本地测试
  Source Server Type    : MySQL
- Source Server Version : 50521
- Source Host           : 192.168.5.183:3306
+ Source Server Version : 50714
+ Source Host           : localhost:3306
  Source Schema         : cjjblog
 
  Target Server Type    : MySQL
- Target Server Version : 50521
+ Target Server Version : 50714
  File Encoding         : 65001
 
- Date: 15/11/2019 17:04:21
+ Date: 17/11/2019 11:52:43
 */
 
 SET NAMES utf8mb4;
@@ -81,8 +81,8 @@ DROP TABLE IF EXISTS `migrations`;
 CREATE TABLE `migrations`  (
   `version` bigint(20) NOT NULL,
   `migration_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
-  `start_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `end_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `start_time` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(0),
+  `end_time` timestamp(0) NOT NULL,
   `breakpoint` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`version`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
